@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.npm
+npm-debug.log*
+
+# Build output
+out/
+dist/
+build/
+*.vsix
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+**/.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+.history/

@@ -1,0 +1,78 @@
+{
+  "name": "creamytheme",
+  "displayName": "Creamy Theme",
+  "description": "A theme for ultimate productivity",
+  "version": "1.0.0",
+  "publisher": "ProstoSoftware",
+  "author": {
+    "name": "ProstoSoftware"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProstoSoftware/CreamyTheme/"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light theme",
+    "dark theme",
+    "color theme",
+    "modern theme",
+    "clean theme",
+    "minimal theme",
+    "professional",
+    "eye-friendly",
+    "productivity"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#151821",
+    "theme": "dark"
+  },
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Creamy Light",
+        "uiTheme": "vs",
+        "path": "./themes/creamy-light-color-theme.json"
+      },
+      {
+        "label": "Creamy Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/creamy-dark-color-theme.json"
+      },
+      {
+        "label": "Creamy Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/creamy-midnight-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.96.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
