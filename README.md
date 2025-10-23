@@ -2,7 +2,7 @@
 
 <img width="96" height="96" alt="Icon" src="./images/icon.png" />
 
-Creamy Theme
+CreamyTheme
 
 <img alt="Splash" src="./images/splash.png" />
 
